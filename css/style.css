@@ -1,0 +1,93 @@
+/* font-family: 'Quantico', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+.container {
+  background-color: #746868;
+  width: 100%;
+  margin: 2% 0;
+  border: 2px solid #383838;
+}
+
+.banner {
+  margin-top: 3%;
+  text-align: center;
+  font-family: 'Quantico', sans-serif;
+}
+
+.status {
+  text-align: center;
+  margin-bottom: 1%
+}
+
+.button {
+  margin: 10px;
+  padding: 5px 8px;
+  width: 80px;
+  border-radius: 20px;
+  border: 1px solid #383838;
+  background-color: #4C6579;
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+}
+
+.button:hover {
+  font-weight: bold;
+  color: #303030;
+  border: #303030;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.results {
+ background-color: #782C2C;
+  padding-top: 1%;
+}
+
+.user-div {
+  margin-bottom: 1%;
+  background-color: #4C6579;
+}
+
+/* Is there a better way to center vertically? */
+.user-logo {
+  width: 65px;
+  margin-bottom: 25px;
+  margin-left: 3%;
+  display: inline-block;
+  border: 2px solid #1A1A1A;
+  box-shadow: 3px 3px 3px;
+}
+
+.user-logo,
+.user-data {
+  display: inline-block;
+}
+
+.user-name {
+  color: #212121;
+  font-family: 'Quantico', sans-serif;
+}
+
+.user-name:visited {
+ text-decoration: none; 
+}
+
+.user-name:hover {
+  color: #303030;
+  /* not working! */
+  text-decoration: none!;
+}
+
+.user-div {
+  padding-top: 2%;
+}
+
+.user-data {
+  margin-left: 5%;
+}
+
+.user-status {
+  font-family: 'Roboto', sans-serif;
+}
